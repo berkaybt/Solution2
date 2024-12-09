@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEgitimKampi301.EntityLayer
+namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
-    public class Class1
+    public class Order
     {
+        public int OrderId { get; set; }
     }
 }
